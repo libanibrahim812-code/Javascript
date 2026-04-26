@@ -1,7 +1,7 @@
-//Scopes
+//Scopes --> visability
 
 //global scope
-var firstName = "liban";
+let firstName = "liban";
 
 //local scope
 {
@@ -12,3 +12,4 @@ var firstName = "liban";
 // when you declare variable inside local scope you'll request to show while inside local only
 // console.log(firstName, lastName);
 // you 'll see ReferenceError: lastName is not defined
+

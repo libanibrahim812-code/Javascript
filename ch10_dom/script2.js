@@ -5,7 +5,7 @@
 // document.body.appendChild(bigTitle);
 
 // my boss told me 100 times h1
-// for (i = 0; i < 100; i++){
+// for (let i = 0; i < 100; i++){
 //     let bigTitle = document.createElement("h1")
 //     bigTitle.textContent = i+" "+"Liban"
 //     document.body.appendChild(bigTitle)
@@ -53,18 +53,19 @@
 
 //getElementsByTagName
 // let allTheH1s = document.getElementsByTagName("h1");
-// for (i = 0; i < allTheH1s.length; i++) {
+// for (let i = 0; i < allTheH1s.length; i++) {
 //   allTheH1s[i].style.color = "red";
 // }
 
 // let allTheH1s = document.querySelectorAll("h1");
-// for (i = 0; i < allTheH1s.length; i++) {
+// for (let i = 0; i < allTheH1s.length; i++) {
 //   allTheH1s[i].style.color = "red";
 // }
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //getElementByName
+// let allTheH1s = document.getElementsByName("h1Member");
 //  for(let i = 0; i < allTheH1s.length; i++){
 // allTheH1s[i].style.color = "blue"
 //  }

@@ -1,10 +1,10 @@
 // ----------VAR--------------
-// is old version before 2015 used it 
+// is old version before 2015 used it
 // var x = 5;
 // x = 2;
 // console.log(x);
 
-// *****Problems 
+// *****Problems
 // 1-scope leakge
 // if (true) {
 //     var magac = "Liban";
@@ -20,9 +20,9 @@
 // this is bad practice because var kama celineeso inaa si toosan wxa u qorto
 // console.log(color);
 // var color = "red";
-// it's like behave you only you declared and assigned it.
+// it's like behave you only you declared and not assigned it.
 
-//++ let will solve these problems
+//let will solve these problems
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -31,9 +31,5 @@
 // console.log(y);
 
 // const z = 4;
-// //z = 3; // you can't re-assign const keyword, TypeError: Assignment to constant variable.
+//z = 3; // you can't re-assign const keyword, TypeError: Assignment to constant variable.
 // console.log(z);
-
-
-
-
