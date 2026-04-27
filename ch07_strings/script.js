@@ -1,11 +1,11 @@
-//-------Ways of creating Strings---------
+// //-------Ways of creating Strings---------
 
 let firstName = "Liban"; // Using double quotes
-console.log(firstName);
+// console.log(firstName);
 let middleName = 'Ibrahim'; //Using single quotes
-console.log(middleName);
+// console.log(middleName);
 let lastName = `Ali`; //Using backticks
-console.log(lastName);
+// console.log(lastName);
 
 //===============================
 
@@ -16,13 +16,19 @@ console.log(lastName);
 
 //===============================
 
+//starts with and end with
+// console.log(firstName.startsWith('L'));
+// console.log(lastName.endsWith("i"));
+
+//===============================
+
 // Join together
 // console.log(firstName + middleName + lastName); //the issue is no space if you add space in typing will not work it.
 // // So the solution is concatenate by adding empty strings with space
 // console.log(firstName + " " + middleName + " " + lastName);
 // //this is way is not liked most people  
 // console.log(`${firstName} ${middleName} ${lastName}`);
-let fullName = `${firstName} ${middleName} ${lastName}`;
+// let fullName = `${firstName} ${middleName} ${lastName}`;
 // console.log(fullName);
 //*****************************************************
 
@@ -106,7 +112,6 @@ let fullName = `${firstName} ${middleName} ${lastName}`;
 //---------------------------------------------------------------
 //split Habkani waa mid aad muhiim u ah! Waxa uu xarfaha (string) u beddelaa liis (Array). Waxaad u sheegaysaa halka uu ka goynayo.
 // let friends = "Axmed,Cali,Hani,Faadumo";
-// let friends = group.split()
 // console.log(friends.split(","));
 
 //---------------------------------------------------------------
@@ -121,3 +126,18 @@ let fullName = `${firstName} ${middleName} ${lastName}`;
 // console.log(tijaabo.valueOf()); // Natiijadu: Hello (waa string caadi ah hadda)
 
 
+
+//slice and substring
+//formula (start,end) exclude end position
+// let magac = 'Omar Gacal';
+// console.log(magac.substring(2,8));  // ar Gac
+// console.log(magac.slice(5,8));  // Gac
+//handling negative
+// console.log(magac.slice(-3));  //wuxuu ku print garaynaa last 3 char
+// console.log(magac.substring(-3)); //so negative ma aqoonsana wuxuu ka soo qadaa 0 wuna wada print garenaa data
+//handling swiping
+// console.log(magac.substring(8, 2)); //Wuxuu leeyahay "Malaha qofkan wuxuu rabay (2, 8)," markaasuu inta is-weydaariyo natiijada kuu soo saaraa.
+// console.log(magac.slice(8, 2)); //Isagu xeerka ayuu raacaa. Maadaama aad ku tiri "Ka bilow 8, kuna jooji 2" (oo ah dib-u-socod), wuxuu kuu soo celinayaa qoraal madhan ("").
+//wahat about (-3,4)
+// console.log(magac.substring(-3,4)); //substring marnaba ma aqoonsato nambar laga rabo (negative). Wax kasta oo ka yar 0, waxay u beddeshaa 0 Wuxuu u akhriyayaa: substring(0, 5)
+// console.log(magac.slice(-3, 4)); // you made that the length of your date subtrct it negative one, 10-3 = 7 so will change like this slice(7,4) now is swipe handling waana empty

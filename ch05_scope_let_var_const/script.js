@@ -33,3 +33,31 @@
 // const z = 4;
 //z = 3; // you can't re-assign const keyword, TypeError: Assignment to constant variable.
 // console.log(z);
+
+
+// //let and const are allowed and is called shadowing redeclaration
+
+// let x = 10;
+// {
+// let x = 20;
+// console.log(x);
+// }
+
+//this is not allowed both of them called redeclaration
+// let x = 10;
+// let x = 20;
+// console.log(x);
+
+//let and const assignment are allowed 
+
+// let x = 10;
+// x=20;
+// console.log(x);
+
+//or
+
+// let x = 10;
+// {
+// x = 20;
+// console.log(x);
+// }

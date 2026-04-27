@@ -40,3 +40,29 @@ console.log(myFriends[2]);
 //sort
 // myFriends.sort()
 // console.log(myFriends);
+
+//******************* 
+// //split
+// let friendsArray = ["Axmed", "Cali", "Hani", "Faadumo"];
+// let friendsAsString = friendsArray.join(',')
+// console.log(friendsAsString);
+
+//******************* 
+
+var studentsAsString = "Zaynab , Bashir , Ali, Jamal";
+var studentsAsArray = studentsAsString.split(",");
+console.log(studentsAsArray);
+
+//******************* 
+
+// //reverse
+// var xisaab = [ 1, 2, 3, 4 ];
+// xisaab.reverse();
+// console.log(xisaab);
+
+// var students = [ "Zaynab", "Bashir", "Ali", "Jamal" ];
+// students.reverse();
+// console.log (students);
+
+//******************* 
+
